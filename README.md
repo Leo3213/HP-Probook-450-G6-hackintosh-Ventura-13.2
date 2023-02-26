@@ -5,6 +5,8 @@ You will need to add your own:
 
     platform id information
     and map your own usb ports!!!
+    
+    (I completely removed it from the plist!!!!!! )
 
 
 THE SMBIOS IM USING IS 
