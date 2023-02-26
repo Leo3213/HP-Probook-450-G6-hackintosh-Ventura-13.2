@@ -128,14 +128,20 @@ What doesn't work:
 
 
 Thanks to:
-The entire internet.
 
-only 1% is my actual doing. this config is the result of many other config fixes and tips. I just combined them into a working config.
+    opencore it would have worked without them
+    apple for making the os
 
-this is designed for the i5 variant.
+    https://dortania.github.io/OpenCore-Install-Guide/
 
-(I rebuilt the config manually with the same settings so it wouldn't be corrupt)
+    The entire internet.
 
-Below is a link to my configuation
+    only 1% is my actual doing. this config is the result of many other config fixes and tips. I just combined them             into a working config.
 
-if anyone wants to make this config better for everyone let me know your fixes and ill include them and give you credit :)
+    this is designed for the i5 variant.
+
+    (I rebuilt the config manually with the same settings so it wouldn't be corrupt)
+
+    Below is a link to my configuation
+
+    if anyone wants to make this config better for everyone let me know your fixes and ill include them and give you    credit :)
