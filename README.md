@@ -143,5 +143,5 @@ Thanks to:
 
     (I rebuilt the config manually with the same settings so it wouldn't be corrupt)
 
-    if anyone wants to make this config better for everyone let me know your fixes and ill include them and
+    if anyone wants to make this config better for everyone let me know your fixes and i'll include them and
     I will give you credit :)
