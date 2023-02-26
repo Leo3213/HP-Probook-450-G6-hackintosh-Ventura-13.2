@@ -46,24 +46,23 @@ This Config uses OpenCore as the bootloader and I am currently running macOS Ven
 
 Laptop Specifications:
 
-    Intel Core i7 6200U CPU (Skylake)
-    Intel HD 520 Graphics
-    8GB DDR4-2133MHz RAM
+    Intel Core i5-8265U processor (Skylake)
+    Intel UHD Graphics 620
+    16 GB DDR4-2400 SDRAM (8 GB x 2) RAM
     15.6 Full HD Display
     Synaptics PS2 TouchPad
-    
-(THIS CARD WAS REPLACED WITH THE FOLLOWING!)
+    720p HD HP Camera
 
 
-    2 USB 3.0 Ports, 2 USB 2.0 Ports
-    HDMI Port
-    SD Card Reader
-    Kingston SSD disk A400 120GB (upgraded)
-    sata m2 500 gb ssd.
-    
-    soon i will be repacing dvd drive with 1tb hdd
-    for windows backups and mac timemachine backups 
-    (it will be partioned in 2)
+(1) USB 3.1 Type-C Gen 1 (Power Delivery, DisplayPort) (2) USB 3.1 Gen 1
+(1) USB 2.0 (Powered port)
+(1) HDMI 1.4b
+(1) RJ-45/Ethernet port
+(1) Headphone/microphone combo jack 
+(1) AC power port
+(1) SD Card reader
+
+ (THE Wifi-bluetooth CARD WAS REPLACED WITH THE FOLLOWING!)
 
 BIOS Setup:
 
@@ -102,14 +101,14 @@ What works:
     Built-in mic
     Native power management
     Battery status
-    USB 3.0 Ports
+    USB Ports
     Ethernet
     Audio on internal speaker and headphone
     Sleep and Wake
 
 What doesn't work:
     Fingerprint Reader
-    Itunes movies (were using intel onboard graphics)
+    Itunes movies (its because were using intel onboard graphics)
 
 Thanks to:
 The entire internet.
