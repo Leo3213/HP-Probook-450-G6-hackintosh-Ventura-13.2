@@ -1,11 +1,21 @@
-# HP-ProBook-450-G3-Hackintosh
-My HP ProBook 450 G3 Hackintosh laptop configuration.
+# HP-ProBook-450-G6-Hackintosh
+My HP ProBook 450 G6 i5 Hackintosh laptop configuration.
 
-(NO MORE UPDATES FOR THE CONFIG ONLY BECAUSE A COWORKER SPILLED LIQUID ON THE LAPTOP AND FRIED IT LOL)
+You will need to add your own:
+platform id information
+and map your own usb ports!!!
 
-I NOW OWN A HP PROBOOK 450 G6 I5 VARIANT AS OF 3-2-22
+THE SMBIOS IM USING IS MacBookPro15,2
 
 I put these commands at the top so everyone would see them :)
+
+*
+Readable brightness keys troubleshoot:
+
+Do a hard shutout and keep the power button down for 30 seconds
+This clears the Laptops EC.
+
+
 
 After install to get sleep/wake working run theses commands:
 
@@ -28,7 +38,7 @@ If you would like to disable TRIM, you can use the command:
     "sudo trimforce disable"
 
 
-This Config uses Clover as the bootloader (but its the version 5144 which uses open core runtime) and I am currently running macOS BigSur 11.6.3 as OS
+This Config uses OpenCore as the bootloader and I am currently running macOS Ventura 13.2.1 as OS
 
 (everything works that I'm aware of)
 
@@ -77,8 +87,9 @@ BIOS Setup:
 
 What works:
 
-    macOS BigSur 11.3
-    UEFI booting via Clover with Openruntime.
+    macOS Ventura 13.2.1
+    SD CARD READER
+    UEFI booting via Opencore.
     Built-in keyboard (with special function keys)
     Built-in trackpad
     Brightness Control Hotkeys
@@ -97,18 +108,15 @@ What works:
     Sleep and Wake
 
 What doesn't work:
-
     Fingerprint Reader
-    SD Card Reader (as of release 1.0.4 it now works thaks to user, "robi62"
+    Itunes movies (were using intel onboard graphics)
 
 Thanks to:
 The entire internet.
 
 only 1% is my actual doing. this config is the result of many other config fixes and tips. I just combined them into a working config.
 
-Most other guides were designed for the i5 version of this laptop, not the i7.
-
-this is designed for the i7 variant.
+this is designed for the i5 variant.
 
 (I rebuilt the config manually with the same settings so it wouldn't be corrupt)
 
