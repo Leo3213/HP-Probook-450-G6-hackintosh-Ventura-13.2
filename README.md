@@ -42,8 +42,6 @@ This Config uses OpenCore as the bootloader and I am currently running macOS Ven
 
 (everything works that I'm aware of)
 
-    SD Card Reader (as of release 1.0.4 it now works thaks to user, "robi62"
-
 Laptop Specifications:
 
     Intel Core i5-8265U processor (Skylake)
@@ -62,7 +60,7 @@ Laptop Specifications:
 (1) AC power port
 (1) SD Card reader
 
- (THE Wifi-bluetooth CARD WAS REPLACED WITH THE FOLLOWING!)
+
 
 BIOS Setup:
 
@@ -109,6 +107,11 @@ What works:
 What doesn't work:
     Fingerprint Reader
     Itunes movies (its because were using intel onboard graphics)
+
+(THE Wifi-bluetooth CARD WAS REPLACED WITH THE FOLLOWING!)
+
+
+
 
 Thanks to:
 The entire internet.
