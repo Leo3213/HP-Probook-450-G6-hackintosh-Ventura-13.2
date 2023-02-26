@@ -2,30 +2,37 @@
 My HP ProBook 450 G6 i5 Hackintosh laptop configuration.
 
 You will need to add your own:
-platform id information
-and map your own usb ports!!!
 
-THE SMBIOS IM USING IS MacBookPro15,2
+    platform id information
+    and map your own usb ports!!!
+
+
+THE SMBIOS IM USING IS 
+    
+    MacBookPro15,2
 
 I put these commands at the top so everyone would see them :)
 
-*
-Readable brightness keys troubleshoot:
+    Readable brightness keys troubleshoot:
 
-Do a hard shutout and keep the power button down for 30 seconds
-This clears the Laptops EC.
+        Do a hard shutout and keep the power button down for 30 seconds
+        This clears the Laptops EC. and fixes the issue
 
 
 
 After install to get sleep/wake working run theses commands:
 
-    "sudo pmset -a hibernatemode 0"
-    "sudo pmset autopoweroff 0"
-    "sudo pmset powernap 0"
-    "sudo pmset standby 0"
-    "sudo pmset proximitywake 0"
-    "sudo pmset tcpkeepalive 0"
-    "sudo pmset lidwake 0"
+    sudo pmset -a hibernatemode 0
+    sudo pmset autopoweroff 0
+    sudo pmset powernap 0
+    sudo pmset standby 0
+    sudo pmset proximitywake 0
+    sudo pmset tcpkeepalive 0  *read below!    
+    
+        {this command just tells the computer even though your connected to the internet you can still sleep, 
+        thats why it says it affects find my :) }
+        
+    sudo pmset lidwake 0
     
 after install to enable TRIM (TO PROLONG THE LIFE OF YOUR SSD) run this command:
 
@@ -40,7 +47,7 @@ If you would like to disable TRIM, you can use the command:
 
 This Config uses OpenCore as the bootloader and I am currently running macOS Ventura 13.2.1 as OS
 
-(everything works that I'm aware of)
+    (everything works that I'm aware of)
 
 Laptop Specifications:
 
@@ -52,13 +59,13 @@ Laptop Specifications:
     720p HD HP Camera
 
 
-(1) USB 3.1 Type-C Gen 1 (Power Delivery, DisplayPort) (2) USB 3.1 Gen 1
-(1) USB 2.0 (Powered port)
-(1) HDMI 1.4b
-(1) RJ-45/Ethernet port
-(1) Headphone/microphone combo jack 
-(1) AC power port
-(1) SD Card reader
+    (1) USB 3.1 Type-C Gen 1 (Power Delivery, DisplayPort) (2) USB 3.1 Gen 1
+    (1) USB 2.0 (Powered port)
+    (1) HDMI 1.4b
+    (1) RJ-45/Ethernet port
+    (1) Headphone/microphone combo jack 
+    (1) AC power port
+    (1) SD Card reader
 
 
 
@@ -105,12 +112,17 @@ What works:
     Sleep and Wake
 
 What doesn't work:
+
     Fingerprint Reader
-    Itunes movies (its because were using intel onboard graphics)
+    Itunes movies DRM (its because were using intel onboard graphics)
 
 (THE Wifi-bluetooth CARD WAS REPLACED WITH THE FOLLOWING!)
 
-
+    Im going to add the model of the card,
+    a picture of how i actually fit it in the laptop lmao (safe but unorthadox lol),
+    and a link to all the parts i used,
+    
+    
 
 
 Thanks to:
