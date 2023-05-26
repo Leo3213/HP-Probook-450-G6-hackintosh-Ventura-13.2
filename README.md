@@ -121,11 +121,13 @@ What doesn't work:
     Itunes movies DRM (its because were using intel onboard graphics)
 
 (THE Wifi-bluetooth CARD WAS REPLACED WITH THE FOLLOWING!)
+https://www.amazon.com/gp/product/B00XY0GAV6/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 
-I have ADDED images of the card and how i managed to safely fit it in the laptop.
+I have ADDED images of the card and how I managed to safely fit it in the laptop.
 
-i will be adding the adapter for the adapter link shortly
-    
+The adapter for the adapter link:
+    https://www.amazon.com/BQZYX-BCM94360CD-BCM94360CS2-BCM943224PCIEBT2-Hackintosh/dp/B07ZKN3YRC
+
     
 
 
