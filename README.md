@@ -120,9 +120,9 @@ What doesn't work:
 
 (THE Wifi-bluetooth CARD WAS REPLACED WITH THE FOLLOWING!)
 
-    Im going to add the model of the card,
-    a picture of how i actually fit it in the laptop lmao (safe but unorthadox lol),
-    and a link to all the parts i used,
+I have ADDED images of the card and how i managed to safely fit it in the laptop.
+
+i will be adding the adapter for the adapter link shortly
     
     
 
