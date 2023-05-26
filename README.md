@@ -1,6 +1,8 @@
 # HP-ProBook-450-G6-Hackintosh
 My HP ProBook 450 G6 i5 Hackintosh laptop configuration.
 
+THE EFI IS UNDER RELEASES!!!!!!! :)
+
 You will need to add your own:
 
     platform id information
